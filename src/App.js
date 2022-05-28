@@ -35,7 +35,7 @@ function App() {
 
   // Delete task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id != id))
+    setTasks(tasks.filter((task) => task.id !== id))
   }
 
   // Toggle Reminder
